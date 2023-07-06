@@ -1,0 +1,239 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA#0_SIGNAL
+   (shape (circ TOP 50800 0 0))
+   (shape (circ I1 50800 0 0))
+   (shape (circ I2 50800 0 0))
+   (shape (circ I3 50800 0 0))
+   (shape (circ I4 50800 0 0))
+   (shape (circ I5 50800 0 0))
+   (shape (circ I6 50800 0 0))
+   (shape (circ I7 50800 0 0))
+   (shape (circ I8 50800 0 0))
+   (shape (circ I9 50800 0 0))
+   (shape (circ I10 50800 0 0))
+   (shape (circ I11 50800 0 0))
+   (shape (circ I12 50800 0 0))
+   (shape (circ I13 50800 0 0))
+   (shape (circ I14 50800 0 0))
+   (shape (circ BOT 50800 0 0))
+  )
+  )
+  (network_out
+   (Net #00015 
+   (rule
+   )
+   )
+   (Net #00020 
+   (rule
+   )
+   (wire (path BOT 152400  77000 -1750000 77000 -1524000 -63500 -1524000
+     -63500 190500 3301031 190500 3301031 -2396000 4300000 -2396000)
+    (connect (terminal pin U2-10) (terminal pin "BATERIA 2"-1))
+   )
+   )
+   (Net #00021 
+   (rule
+   )
+   (wire (path BOT 152400  585000 -2512000 585000 -3365500 -800000 -3365500
+     -800000 -3600000)
+    (connect (terminal pin U2-5) (terminal pin D1-0))
+   )
+   (wire (path BOT 152400  150000 -250000 150000 -635000 900000 -635000
+     900000 -1266000)
+    (connect (terminal pin R15-1) (terminal pin R11-0))
+   )
+   (wire (path TOP 152400  585000 -2512000 585000 -2286000 1143000 -2286000
+     1143000 -1266000 900000 -1266000)
+    (connect (terminal pin U2-5) (terminal pin R11-0))
+   )
+   )
+   (Net #00022 
+   (rule
+   )
+   (wire (path BOT 152400  839000 -2512000 839000 -3600000 216000 -3600000)
+    (connect (terminal pin U2-6) (terminal pin D1-1))
+   )
+   (wire (path TOP 152400  -190500 -3619500 -190500 -3365500 -1714500 -3365500
+     -1714500 -1079500 -750000 -1079500 -750000 -300000)
+    (connect (terminal via) (terminal pin D2-0))
+   )
+   (wire (path BOT 152400  216000 -3600000 -190500 -3600000 -190500 -3619500)
+    (connect (terminal pin D1-1) (terminal via))
+   )
+   (via $VIA#0_SIGNAL -190500 -3619500)
+   )
+   (Net #00023 
+   (rule
+   )
+   (wire (path BOT 152400  900000 -250000 1333500 -250000 1333500 -2095500
+     -1079500 -2095500 -1079500 -1524000)
+    (connect (terminal pin R11-1) (terminal wire))
+   )
+   (wire (path BOT 152400  -1300000 -1316000 -750000 -1316000)
+    (connect (terminal pin R16-0) (terminal pin D2-1))
+   )
+   (wire (path BOT 152400  -1079500 -1524000 -1300000 -1524000 -1300000 -1316000)
+    (connect (terminal wire) (terminal pin R16-0))
+   )
+   )
+   (Net #00024 
+   (rule
+   )
+   (wire (path BOT 152400  -4600000 -1400000 -4381500 -1400000 -4381500 -1206500
+     -1714500 -1206500 -1714500 -2286000 -190500 -2286000)
+    (connect (terminal pin R17-0) (terminal wire))
+   )
+   (wire (path BOT 152400  -4600000 -1400000 -4889500 -1400000 -4889500 -3429000
+     -4048000 -3429000 -4048000 -3984000)
+    (connect (terminal pin R17-0) (terminal pin C4-1))
+   )
+   (wire (path TOP 152400  2540000 -2286000 2517045 -2286000 2517045 -2142000
+     4300000 -2142000)
+    (connect (terminal via) (terminal pin "BATERIA 2"-2))
+   )
+   (wire (path BOT 152400  317500 -2286000 2540000 -2286000)
+    (connect (terminal wire) (terminal via))
+   )
+   (wire (path BOT 152400  317500 -2286000 331000 -2286000 331000 -2512000)
+    (connect (terminal wire) (terminal pin U2-4))
+   )
+   (wire (path BOT 152400  -190500 -2286000 -190500 -2512000 -177000 -2512000)
+    (connect (terminal wire) (terminal pin U2-2))
+   )
+   (wire (path BOT 152400  -4600000 -1400000 -4600000 -700000)
+    (connect (terminal pin R17-0) (terminal pin D3-0))
+   )
+   (wire (path BOT 152400  -190500 -2286000 317500 -2286000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (via $VIA#0_SIGNAL 2540000 -2286000)
+   )
+   (Net #00025 
+   (rule
+   )
+   (wire (path BOT 152400  -3584000 -700000 -3584000 -300000 -1300000 -300000)
+    (connect (terminal pin D3-1) (terminal pin R16-1))
+   )
+   )
+   (Net #00026 
+   (rule
+   )
+   (wire (path BOT 152400  -3619500 -2984500 -2629000 -2984500 -2629000 -4498000)
+    (connect (terminal wire) (terminal pin U5-1))
+   )
+   (wire (path BOT 152400  -3619500 -2984500 -3619500 -4234000 -4048000 -4234000)
+    (connect (terminal wire) (terminal pin C4-0))
+   )
+   (wire (path BOT 152400  -3634000 -2300000 -4254500 -2300000 -4254500 -2095500
+     -4600000 -2095500 -4600000 -1850000)
+    (connect (terminal pin R7-0) (terminal pin R12-1))
+   )
+   (wire (path BOT 152400  -3619500 -2984500 -3619500 -2794000 -3634000 -2794000
+     -3634000 -2300000)
+    (connect (terminal wire) (terminal pin R7-0))
+   )
+   )
+   (Net #00028 
+   (rule
+   )
+   (wire (path BOT 152400  -2375000 -4498000 -2375000 -1850000 -3584000 -1850000)
+    (connect (terminal pin U5-0) (terminal pin R12-0))
+   )
+   (wire (path BOT 152400  -3584000 -1850000 -3584000 -1400000)
+    (connect (terminal pin R12-0) (terminal pin R17-1))
+   )
+   )
+   (Net #00031 
+   (rule
+   )
+   (wire (path BOT 152400  -4650000 -2300000 -4650000 -2921000 -4445000 -2921000
+     -4445000 -3175000)
+    (connect (terminal pin R7-1) (terminal pin R13-0))
+   )
+   )
+   (Net #00032 
+   (rule
+   )
+   (wire (path BOT 152400  -431000 -2512000 -431000 -2984500 -1016000 -2984500
+     -1016000 -4254500)
+    (connect (terminal pin U2-1) (terminal wire))
+   )
+   (wire (path BOT 152400  -1016000 -4254500 -825500 -4254500 -825500 -4250000
+     -500000 -4250000)
+    (connect (terminal wire) (terminal pin R14-1))
+   )
+   (wire (path BOT 152400  -1016000 -4254500 -1016000 -4762500 -3429000 -4762500
+     -3429000 -3175000)
+    (connect (terminal wire) (terminal pin R13-1))
+   )
+   )
+   (Net #00033 
+   (rule
+   )
+   (wire (path BOT 152400  4204000 -550000 4204000 -1143000 4508500 -1143000
+     4508500 -4000500 1143000 -4000500 1143000 -4250000 516000 -4250000)
+    (connect (terminal pin "ENTRADA 1"-1) (terminal pin R14-0))
+   )
+   )
+   (Net #00034 
+   (rule
+   )
+   (wire (path TOP 152400  -685000 -2512000 -685000 -2286000 -1079500 -2286000
+     -1079500 -1558400 -508000 -1558400 -508000 -1266000 150000 -1266000)
+    (connect (terminal pin U2-0) (terminal pin R15-0))
+   )
+   )
+   (Net POSITIVO 
+   (rule
+   )
+   (wire (path TOP 152400  63500 -2857500 3683000 -2857500 3683000 -2650000
+     4300000 -2650000)
+    (connect (terminal via) (terminal pin "BATERIA 2"-0))
+   )
+   (wire (path BOT 152400  77000 -2512000 77000 -2857500 63500 -2857500)
+    (connect (terminal pin U2-3) (terminal via))
+   )
+   (via $VIA#0_SIGNAL 63500 -2857500)
+   )
+  )
+ )
